@@ -1,0 +1,191 @@
+                java test
+                ---------
+
+1. Explain JRE,JDK,JVM
+
+JRE:- java runtime environment is called jre.jre is a set of libraries and other componets which are required to
+        run the java program.
+JDK:- java development kit is called jdk. jdk contains set of tools which are used for developing java program.
+JVM:- java virtual machine is called jvm. jvm it is three contains that is loads the byte code and verify the
+         byte code and execute the byte code of a java program.
+	  
+	  
+2. explain the following 
+  1. class ,object,static , public, private keywords.
+
+  class:-class is contains  a states and behaviours is called class.
+  object:- object is called instance of class.
+  static:- static is a keyword and  non access modifier of the main method in program.
+  public :- public is a access modifier of the main method in program.
+  
+  2.public static void main(String a[])
+  
+  in every java program we are using main method. without main method we can't run the java program.and 
+  main method is actualy required for run time not complie time.  
+  
+  
+  3. system.out.println()
+  
+  in above statment is called print statment in the java program. system.out mens a class name and println mens method name.
+
+3.what is an array?
+
+array is a container it group of elements having similar data type is stored in a memory.
+
+  
+	4. write a program
+      given array number [] ={23,45,56,67,8,12,3,5,7,9,102,34,4,5}
+
+     1.count the number of prime numbers in the given array.
+     2.display the even number with count and odd number with count the given array.
+     3. display the array size.
+	 
+	 
+	 class Array
+	 {
+	 
+	 public static void main(String a[])
+	 {
+	 
+	 int a1[]= {23,45,56,67,8,12,3,5,7,9,102,34,4,5};
+	 int odd=0;
+	 int even =0;
+	 
+	 for(int i=0; i< a1.length ;i++)
+	 {
+		 if(a1[i] % 2 == 0)
+		 {
+			 even++;
+		 }
+		 else {
+			 odd++;
+		 }
+		
+	 }
+	 System.out.println("given array");
+	 for (int i=0; i<a1.length ; i++)
+	 {
+		 System.out.print(a1[i] + " " );
+	 }
+	 
+	 System.out.println("count the no of even no " +even);
+	 System.out.println("count the no of odd no " +odd);	 
+	 }
+	 }
+
+5. explain the data types in java and give example for each.
+
+data types are 8
+
+byte:-byte is a data type its contains 4 bytes of data decleare in java program. ex:- byte b =0.5;
+char:- char is a data type its contains 4 bytes of data declear sigle digit of character in java program. ex:- char c='c';
+short:- short is a data type its contains 4 bytes of data declear number in program ex:- short s= 1;
+String :- String is a data type its 8 bytes of data  declere String s="data";
+int :- integer data type contains 8 bytes of data is declre ex:- int n=123;
+float :- float contains 16 bytes of data  declare ex:- float f= 0.0647f;
+double :-  double contains 16 bytes of data  declare ex:- float f= 0.3642d;
+boolean :- boolean its contains 2 bytes of data is true or false ex:- boolean b= true;
+
+
+6. what is variable? explain its types with an examples.
+
+variable is a container its repesented to elements grouped to gether to perform a opeartion.
+4 types of variables
+local variables 
+static variables
+instance variables
+parameter variables
+
+7.what is constructor? when is the class constructor invoked ? will a class contain multiple constructor ?
+ explain its types with an examples.
+ 
+ it is a special type of method which will be same name as a class name with no return type.
+ constructor types
+ default constructor
+ parameterized constructor
+ 
+ default constructor
+ 
+ example 
+   
+   class name()
+   {
+     System.out.println("default constructor is called");
+   }
+   
+   parameterized constructor
+   example 
+   
+  public  class name(String a, int n)
+  {
+  System.out.println("parameterized constructor is called");
+  }
+   
+ 
+ 8.explain java feactures.
+ 
+ *) simple
+ *)security
+ *)paltform independent
+ *)multi theraded
+
+9 write a program to get the sum of digits
+
+class Sum
+{
+
+public static void main(String a[])
+{
+int num ,x;
+int sum=0;
+
+Scanner sc = new Scanner(System.in);
+
+System.out.println("enter the number");
+
+num=sc.nextInt();
+while(num >=0)
+
+{
+
+x=num%10;
+sum=sum + x;
+num=num/10;
+}
+
+System.out.println("sum of digit " + sum);
+}
+}
+
+
+10) write a program to get the factorial of a given number
+
+class Factorial
+{
+
+public static void main(String a[])
+{
+int n,fact=1;
+
+Scanner sc = new Scanner(System.in);
+
+System.out.println("enter the number");
+
+n=sc.nextInt();
+
+for(int i=1; i<=n ;i++)
+
+{
+
+fact=fact *i;
+}
+
+System.out.println("factorial of " + n + "is" +fact);
+}
+}
+  
+ 
+
+
+	 
+	  
