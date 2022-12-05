@@ -1,0 +1,1410 @@
+                java programs
+                -------------
+
+1.patern programs
+
+class Prog1
+{
+public static void main(String a[])
+{
+for(int i=1; i<=5; i++)
+{
+for(j=1; j<=5; j++)
+{
+System.out.print("*");
+}
+System.out.println();
+}
+}
+
+output:-
+
+*****
+*****
+*****
+*****
+*****
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+class Porg2
+{
+public static void main(String a[])
+{
+for(int i=1; i<=5;i++)
+{
+for(int j=1; j<=5; j++)
+{
+System.out.print(i);
+}
+System.out.println();
+}
+}
+
+output:-
+11111
+22222
+33333
+44444
+55555
+.........................................................................................................-------------------------------------------------------------------------------------
+
+class Porg3
+{
+public static void main(String a[])
+{
+for(int i=1 ; i<=5 ; i++)
+{
+for (int j=1; j<=5; j++)
+{
+System.out.print(j);
+}
+System.out.println();
+}
+}
+
+output:-
+12345
+12345
+12345
+12345
+12345
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+class Porg4                                         class porg4
+{                                                   {
+public static void main(String a[])                public static void main(String a[])
+{                                                    {
+for(int i=5; i>=1; i--)                              for(int i=5; i>=1; i--)
+{                                                   {
+for(int j=1; j<=5; j++)                               for(int j=1; j<=5; j++)
+{                                                      {
+System.out.print(i);                                      System.out.print(i)
+}                                                      }
+System.out.println();                                  System.out.println();
+}                                                     }
+}                                                    }
+
+output:=
+55555
+44444
+33333
+22222
+11111
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class porg5
+{
+public static void main(String a[])
+{
+for(int i=5; i>=1 ;i--)
+{
+for(int j=5 ; j>= 1; j--)
+{
+System.out.print(j)
+}
+Sytsem.out.println();
+}
+}
+output:=
+
+54321
+54321
+54321
+54321
+54321
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class porg6
+{
+public static void main(String a[])
+{
+int n=5;
+int n1=1'
+for(int i=1; i<=n; i++)
+{
+for(int j=1; j<=n; j++)
+{
+System.out.printf("%2d",n1);
+n1++;
+}
+System.out.println();
+}
+}
+
+output:-
+1 2 3 4 5
+6 7 8 910
+1112131415
+1617181920
+2122232425
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class porg7
+{
+public static void main(String a[])
+{
+int n=5;
+int n1=1;
+
+for(int i=1; i<=n; i++)
+{
+for(int j=1; j<=n; j++)
+{
+System.out.printf("%2d",n1)
+n1 +=2;
+}
+System.out.println();
+}
+}
+
+output:=
+1 3 5 7 9
+1113151719
+2123252729
+3133353739
+4143454749
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class porg8
+{
+public static void main(String a[])
+{
+int n=5;
+int n1=2;
+
+for(int i=1; i<=n; i++)
+{
+for(int j=1; j<=n; j++)
+{
+System.out.printf("%2d",n1)
+n1 +=2;
+}
+System.out.println();
+}
+}
+
+output:-
+2 4 6 810
+1214161820
+2224262830
+3234363840
+4244464850
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class porg9
+{
+public static void main(String a[])
+{
+int n=5;
+
+for(int i=1; i<=n; i++)
+{
+for(int j=1; j<=n; j++)
+{
+System.out.printf("%2d",(i*j));
+}
+System.out.println();
+}
+}
+
+output:-
+1 2 3 4 5
+ 2 4 6 810
+ 3 6 91215
+ 4 8121620
+ 510152025
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+class porg10
+{
+public static void main(String a[])
+{
+for(int i=1; i<=5;i++)
+{
+for(int j=1 ; j<=i; j++)
+{
+System.out.print("*");
+}
+System.out.println();
+}
+}
+
+output:=
+*
+**
+***
+****
+*****
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class porg11
+{
+public static void main(String a[])
+{
+for(int i=1; i<=5; i++)
+{
+for(int j=1; j<=i; j++)
+{
+System.out.print(i);
+}
+System.out.println();
+}
+}
+
+output:=
+1
+22
+333
+4444
+55555
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+class porg12
+{
+public static void main(String a[])
+{
+for(int i=1; i<=5; i++)
+{
+for(int j=1; j<=i; j++)
+{
+System.out.print(j);
+}
+System.out.println();
+}
+}
+
+output:-
+1
+12
+123
+1234
+12345
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class porg13
+{
+public static void main(String a[])
+{
+for(int i=5; i>=1 ; i--)
+{
+for(int j=5; j>=i; j--)
+{
+System.out.print(j);
+}
+System.out.println();
+}
+}
+
+output:-
+5
+5 4
+5 4 3
+5 4 3 2
+5 4 3 2 1
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+class porg14
+{
+public static void main(String a[])
+{
+int n=5;
+
+for(int i=n ; i>=1 ; i--)
+{
+for(int j=i ; j<=n; j++)
+{
+System.out.print(j + " ");
+}
+System.out.println();
+}
+}
+
+output:=
+5 
+4 5 
+3 4 5 
+2 3 4 5 
+1 2 3 4 5 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class porg15
+{
+public static void main(String a[])
+{
+char i;
+char j;
+
+for(i='A'; i<='E';i++)
+{
+for(j='A'; j<=i; j++)
+{
+System.out.print(i);
+}
+System.out.println();
+}
+}
+
+output:-
+A
+BB
+CCC
+DDDD
+EEEE
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+class porg16
+{
+public static void main(String a[])
+{
+char i;
+char j;
+
+for(i='a'; i<='E'; i++)
+{
+for(j='A'; j<='i';j++)
+{
+System.out.print(j);
+}
+System.out.println();
+}
+}
+
+output:-
+A
+AB
+ABC
+ABCD
+ABCDE
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+class porg17
+{
+public static void main(String a[])
+{
+int n=5;
+for(int i=n-1; i>=0; i--)
+{
+for(int j=n-1; j>=i; j--)
+{
+System.out.print((char)(j+65));
+}
+System.out.println();
+}
+}
+
+output:-
+E
+ED
+EDC
+EDCB
+EDCBA
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+class porg18
+{
+public static void main(String a[])
+{
+int n=5;
+
+for(int i=n-1; i>=0; i--)
+{
+for (int j=n-1; j>=i; j--)
+{
+System.out.print((char)(i+65));
+}
+System.out.println();
+}
+}
+
+output:-
+
+E
+DD
+CCC
+BBBB
+AAAAA
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class porg18                                               class porg18
+{                                                         {
+public static void main(String a[])                         public static void main(String a[])
+{                                                           {
+for(int i=1; i<=5; i++)                                       for(int i=1; i<=5; i++)
+{                                                               {
+for(int j=5; j>=i; j--)                                           for(int j=5; j>=i; j--)
+{                                                                  }
+System.out.print("*");                                           System.out.print(i);
+}                                                                }
+System.out.println();                                          System.out.println();
+}                                                                 }                                          
+}                                                                }
+
+output:-                                                      output:-
+*****                                                                  11111
+****                                                                   2222
+***                                                                    333
+**                                                                     44
+*                                                                      5
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class porg19
+{
+public static void main(String a[])
+{
+for(int i=5; i>=1; i--)
+{
+for(int j=1; j<=i; j++)
+{
+System.out.print(j);
+}
+System.out.println();
+}
+}
+
+output:-
+12345
+1234
+123
+12
+1
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class Porg20
+{
+public static void main(String a[])
+{
+int n=5;
+
+for(int i=1; i<=n; i++)
+{
+for(int j=n; j>=1; j--)
+{
+if(i>j)
+{
+System.out.print("*");
+}
+else
+{
+System.out.print(" ");
+}
+}
+System.out.println();
+}
+}
+}
+
+output:-
+    *
+   **
+  ***
+ ****
+*****
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+class Porg20
+{
+public static void main(String a[])
+{
+int n=5;
+
+for(int i=1; i<=n; i++)
+{
+for(int j=n; j>=1; j--)
+{
+if(i>j)
+{
+System.out.print("* "); // space afetr "*".
+}
+else
+{
+System.out.print(" ");
+}
+}
+System.out.println();
+}
+}
+}
+
+output:-
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+class porg21
+{
+public static void main(String a[])
+{
+int i;
+int j; 
+int k;
+
+for(i=0; i<=5; i++)
+{
+for(j=4; j>=i; j--)
+{
+System.out.print(" ");
+}
+for(k=0; k<=i; k++)
+{
+System.out.print((char)(i+65));
+System.out.print(" ");
+}
+System.out.println();
+}
+}
+}
+
+output:-
+
+     A 
+    B B 
+   C C C 
+  D D D D 
+ E E E E E 
+F F F F F F
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. java basic porgrams
+
+1.Add two numbers without using + operator.
+
+class  porg
+{
+
+public static void main(String a[])
+{
+
+int num1=10;
+int num2=10;
+int add;
+
+add=num1-(-num2);
+
+System.out.println("Addition " +add);
+}
+}
+
+output:- Addition 20
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+2.Subtract Two numbers without using - operator.
+
+class Porg
+{
+public static void main(String a[])
+{
+int num1=20;
+int num2=10;
+int sub;
+
+sub=num1+(-num2);
+
+System.out.println("Subtraction" + sub);
+}
+}
+
+output:-Subtraction 2.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3.check whether given number is even or odd.
+
+class Porg
+{
+
+public static void main(String a[])
+{
+Scanner sc= new Scanner(System.in);
+
+int num=sc.nextInt();
+
+if(num%2==0)
+{
+System.out.println("given no is even");
+}
+
+else
+{
+System.out.println("given no is odd");
+}
+
+sc.close();
+}
+}
+
+output:-
+input:-10
+output:- given num is even
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4.Count the number of digits in the given number.
+
+class Porg
+{
+public static void main(String a[])
+{
+int num =356473;
+int count =0;
+
+while(num !=0)
+{
+num/=10;
+count++;
+
+}
+System.out.println("count the no of digits in given num is : " + count);
+}
+}
+
+output :- count:-6
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5.Reverse the given number.
+
+class Porg
+{
+public static void main(String a[])
+{
+
+int num=123456;
+int reverseNum=0;
+
+while(num !=0)
+{
+int digit = num %10;
+reverseNum = reverseNum *10 +digit;
+num /=10;
+
+}
+System.out.println("reverse the given num is : " + reverseNum);
+}
+}
+
+output := revreseNum is:= 654321.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6. Java program to check whether given number is prime number or not.
+
+class porg
+{
+public static void mian(String a[])
+{
+
+int num = 11;
+int count=0;
+
+for(int i=1; i<=num; i++)
+{
+if(num%i == 0)
+{
+count++;
+}
+}
+if(count == 2)
+{
+System.out.println("it is prime num");
+}
+else
+{
+System.out.prntln("it is not prime num");
+}
+}
+}
+
+output:- it is prime number.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7. Write a program to get the Fibonacci series.
+
+
+class Porg
+{
+public static void main(String a[])
+{
+
+int firstNo=0;
+int secondNo=1;
+int count=0;
+int userNo;
+int result;
+
+Scanner sc= new Scanner(System.in);
+System.out.println("ente any number");
+userNo=sc.nextInt();
+
+while(true)
+{
+result=firstNo+secondNo;
+count++;
+
+if(result >=userNo)
+{
+break;
+}
+firstNo=secondNo;
+secondNo=result;
+
+System.out.println("\n Fibanacci no [ " + count + " ] -> " +result);
+}
+
+sc.close();
+}
+}
+
+output:-
+
+please enter any number
+10
+
+ Fibanacci No.[1] -> 1
+
+ Fibanacci No.[2] -> 2
+
+ Fibanacci No.[3] -> 3
+
+ Fibanacci No.[4] -> 5
+
+ Fibanacci No.[5] -> 8
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8..write a program to find the factorial of the given number.
+
+class porg
+{
+public static void main(String a[])
+{
+int num=5;
+int fact=1;
+
+for(int i=1; i<=num; i++)
+{
+fact *=i;
+
+}
+System.out.println(" factoral of %d=%d ",num,fact);
+}
+}
+
+outut:-factorial of 5=120.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9. Write a program to swap two numbers
+
+class Porg
+{
+public static void main(String a[])
+{
+
+int num1=10;
+int num2=20;
+int temp;
+
+temp=num1;
+num1=num2;
+num2=temp;
+
+System.out.println("swapping two numbers are " +num1 + " "  +num2);
+}
+}
+ 
+output:- 20 10.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10. Write a program to swap two numbers without using third variable.
+
+class Porg
+{
+public static void main(String a[])
+{
+int num1=10;
+int num2=20;
+
+num1= num1+num2;
+num2=num1-num2;
+num1=num1-num2;
+
+System.out.priintln("swapping to numbers are " +num1 + " " + num2);
+
+}
+}
+
+output:- 40 -10.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11.Write a program to count odd and even number.
+
+class Porg
+{
+
+public static void main(String a[])
+{
+
+int a[] = {1,2,3,4,5,6,7,8,9,0};
+
+System.out.println("Even numbers are : ");
+for(int i=0; i< a.length; i++)
+{
+if(a[i]%2 ==0)
+{
+System.out.print(a[i]);
+}
+}
+
+System.out.println("odd numbers are : ");
+for(int i=0; i<a.lenth ; i++)
+{
+if(a[i] %2 ==1)
+{
+System.out.print(a[i]);
+}
+}
+}
+}
+
+output:-
+even num are :-2 4 6 8 0
+odd num are :- 1 3 5 7 9
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+12. Check whether given number is a palindrome or not?
+
+class Porg
+{
+public static void main(String a[])
+{
+int r,sum=0;
+int n=454;
+int temp=n;
+
+while(n>0)
+{
+r=n%10;
+sum=(sum*10)+r;
+n=n/10;
+}
+
+if(temp==sum)
+{
+System.out.println("given numbers is palandrom");
+}
+else
+{
+System.out.println("given numbr is not palandrom");
+}
+}
+}
+
+output: given number is palandrom.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13. Check whether given number is Armstrong number or not?
+
+class Porg
+{
+public static void main(String a[])
+{
+int n=371;
+int originalNum,remainder,result=0;
+
+originalNum=n;
+
+while(origialNum>0)
+{
+remainder=originalNum%10;
+result=(int)(result+math.pow(remainder,3));
+originalNum= originalNum/10;
+}
+if(result==n)
+{
+System.out.println(n+"is an amstrong number");
+}
+else
+{
+System.out.println(n+"is not amstrong number");
+}
+}
+}
+
+output:- 371 is amstrong number.
+
+
+An Armstrong number is a positive m-digit number that is equal to the sum of the mth powers of their digits.
+
+153: 13 + 53 + 33 = 1 + 125+ 27 = 153
+
+125: 13 + 23 + 53 = 1 + 8 + 125 = 134 (Not an Armstrong Number)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+14. Write a program to print multiples of 3 and 6 in a given array?
+
+class Porg
+{
+public static void main(String a[])
+{
+int a[]={3,43,24,35,36,300,330,350,600,500,200,4366,70,37,30};
+
+System.out.print("multiplyes of 3 :-");
+for(int i=0; i<a.length; i++)
+{
+if(a[i]%3 ==0)
+{
+
+System.out.print(a[i]+ " ");
+}
+}
+System.out.println();
+
+System.out.print("multiplyes of 6 :-");
+for(int i=0; i<a.length; i++)
+{
+if(a[i]%6==0)
+{
+System.out.print(a[i] + " ");
+}
+}
+}
+}
+
+output:-
+multiplyes of 3 :-3 24 36 300 330 600 30 
+multiplyes of 6 :-24 36 300 330 600 30 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+15. Write a program to reverse given String?
+
+class Porg
+{
+public static void main(String a[])
+{
+String s1="java";
+String reverseString="";
+
+for(int i=s1.length()-1; i>=0; i--)
+{
+reverseString +=s1.charAt(i);
+}
+System.out.println(revetrseString);
+}
+}
+
+output:- avaj
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+16. .write a program to count the number of character in the given string
+
+class Porg
+{
+public static void main(String a[])
+{
+String s1="java is a porgrming language";
+
+System.out.println(s1.length());
+}
+}
+
+output:- 29
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+17. Write a program to count the number of character in the given String without using length() Method.
+
+class Porg
+{
+public static void main(String a[])
+{
+String s1="java is a programing language";
+int count=0;
+
+for(char c: s1.toCharArray())
+{
+count++;
+}
+
+System.out.printn("String length : " +count);
+}
+}
+
+output:-String length :- 29.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+18. Write a program to count the number of Vowels and Consonants in given String.
+
+class Porg
+{
+public static void main(String a[])
+{
+String s1="java is a 363 porgraming language");
+int vowales=0;
+int consonents=0;
+int digits=0;
+int spaces=0;
+
+for(int i=0; i< s1.length() ; i++)
+{
+char ch=s1.charAt(i);
+
+if(ch=='a' || ch== 'e' || ch=='i' || ch=='o' || ch=='u')
+{
+vowales++;
+}
+else if(ch>='a' && ch<='z')
+{
+consonents++;
+}
+
+else if(ch =='0' && ch=='9')
+{
+digits++;
+}
+
+else if(ch==' ')
+{
+spaces++;
+}
+}
+System.out.println("vowales " +vowales);
+System.out.println("consonents " +consonents);
+System.out.println("digits " +digits);
+System.out.println("spaces" +spaces);
+}
+}
+
+
+output:-
+vowles :- 11
+consonents: - 13
+digits :-7
+white spaces: 7
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+19. Write a program to find the frequence of a given digit in a number.
+
+class Porg
+{
+public static void main(String a[])
+{
+Scanner sc=new Scanner(System.in);
+int digit,num;
+
+System.out.println("enter any number");
+num=sc.nextInt();
+
+System.out.println("digit\tFrequncy");
+
+for(int i=0; i<=9; i++)
+{
+int temp=num;
+int count=0;
+
+while(temp>0)
+{
+digit=temp%10;
+
+if(digit==i)
+{
+count++;
+}
+
+temp=temp/10;
+}
+
+if(count>0)
+{
+System.out.println(i+"\t" +count);
+}
+}
+sc.close();
+}
+}
+
+output:-
+enter any number
+3255435
+Digit	Frequncy
+2	1
+3	2
+4	1
+5	3
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+20. Write a program to find the frequence of a given character in a String.
+
+class Porg
+{
+public staic void main(String a[])
+{
+
+Scanner sc=new Scanner(System.in);
+System.ou.println("enter the string");
+String s1=sc.nextLine();
+
+System.out.println("enter the frequancy of a charctrer ");
+char ch=sc.nextLine().charAt(0);
+
+int count=0;
+
+for(int i=0; i<= s1.length(); i++)
+{
+if(ch==s1.charAt(i);
+{
+count++;
+}
+
+}
+System.out.println("the frequnacy of char number is :" +count);
+
+sc.close();
+}
+}
+
+output:-
+enter the string
+java is a programing lanaguage
+frequnacy of character
+a
+given string frequnacy of character 7
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+21. Write a program to print N*N matrix 
+
+class Porg
+{
+public static void main(String a[])
+{
+int matrix[][]={{123},{456},{789}};
+
+for(int i[]:matrix)
+{
+for(int j:i)
+{
+System.out.println(j+" ");
+}
+}
+
+}
+}
+
+output:-
+123
+456
+789
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+22.write a program to find the  Duplicate  elements in a given array
+
+class Porg 
+{
+public static void main(String a[])
+{
+int a[]={1,2,3,4,3,2,5,6,7,5,8,9};
+
+System.out.println("duplicate values in given arrays");
+
+for(int i=0; i<a.length; i++)
+{
+for(int j=i+1; j<a.length;j++)
+{
+if(a[i]==a[j])
+{
+System.out.println(a[j]);
+}
+}
+}
+}
+}
+
+output:
+
+the duplicate values in given array
+2
+3
+5
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+23 .write  a program to find the largest element in a given array.
+
+class Porg 
+{
+
+public static void main(String a[])
+{
+
+int a[]={23,633,7364,2,45,224};
+int max=a[0];
+
+System.out.println("the largest number is:-");
+for(int i=0; i< a.length; i++)
+{
+if(a[i]>max)
+{
+max=a[i];
+}
+}
+System.out.println(max);
+
+}
+}
+
+output:- the largest number is : -7364
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+25. Write a program to get the sum of all the elements in a given array25. Write a program to get the sum of all the elements in a given array
+
+class Porg 
+{
+public static void main(Striing a[])
+{
+int a[]={1,2,3,4,5};
+int sum=0;
+
+for(int i=0; i<a.length;i++)
+{
+sum=sum+a[i];
+
+}
+
+System.out.println("sum the array" +sum);
+}
+}
+
+output:- sum the array 15.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+26. Write a program to check whether given year is a Leap year or not 
+
+class Porg
+{
+public static void main(String a[])
+{
+int year=2004;
+
+if(year%4==0)
+{
+System.ou.println(year + "this is leap year");
+}
+else if(year%100 == 0)
+{
+System.out.println(year+"this is not leap year");
+}
+else if(year%400 == 0)
+{
+System.ou.println(year+"this is leap year");
+}
+else
+
+{
+
+System.out.println(year+"this is not leap year");
+}
+}
+}
+
+output:-
+enter year
+2004
+2004 this is leap year.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+27.How do you check if two strings are anagrams of each other?
+
+class Porg
+{
+public static void main(String a[])
+{
+Scanner sc= new Scanner(System.in);
+
+System.out.println("enter the first string");
+String s1= sc.nextLine();
+
+Sytem.out.println("enter the second string");
+String s2=sc.nextLine();
+
+if(s1.length() == s2.length())
+{
+char ch1[]=s1.toCharArray();
+char ch2[]=s2.toCharArray();
+
+Arrays.sort(ch1);
+Arrayys.sort(ch2);
+
+boolean result=Arrays.equals(s1,s2);
+
+if(result)
+{
+System.out.println(s1 + "and" + s2 + "is anagarm");
+}
+else
+{
+System.out.println(s1 + "and" + s2 + "is not a anagarm");
+}
+}
+
+else
+{
+
+System.out.println(s1 + "and" + s2 + "is not a anagarm");
+
+}
+sc.close();
+}
+}
+
+output:-
+enter the first string
+race
+enter the second string
+care
+race  and care this  is a anagram.
+
+
+An anagram of a string is another string that contains the same characters, only the order of characters can be different. For example, “abcd” and “dabc” are an anagram of each other.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+30.How do you check if a string contains only digits?
+
+class Porg
+{
+public static boolean isEmpty(CharSequence cs)
+{
+return cs==null || cs.length()==0;
+}
+
+public static boolean isDigits(CharSequence cs)
+{
+if(isEmpty(cs))
+{
+return false;
+}
+int len=cs.length();
+
+for(int i=0; i<len; i++)
+{
+if(!Character.isDigits(cs.charAt(i)))
+{
+return false;
+}
+}
+return true;
+}
+
+public static void main(String a[])
+{
+
+System.out.println(isDigits("123");
+System.out.println(isDigits(" ");
+System.out.println(isDIgits("634gjhg");
+}
+}
+
+output:-
+true
+false
+false
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
