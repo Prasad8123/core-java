@@ -1,0 +1,108 @@
+-----------------Java Test--------------------------
+
+1. which sorted collection have you used?
+
+collection.sort ,comparable and comparators we are using the sorted collection.
+
+2.what is difference between linked list and array list?
+
+               Arry list                                         linked list
+			   
+	1. array list internaly store dynamic                  1. linked list internaly store circular list arry
+	    arry in the element.                                   in the element.
+		
+	2. Array list is using the faster read operation.       2.  linked list is slower in read operation.
+
+   3. array	list slower in write operation.                3. linked list is faster in write operation.
+ 
+   4. This class implements a List interface               4.This class implements both the List interface and the Deque interface 
+        Therefore this acts as a list.                         Therefore it can act as a list and a deque.
+    
+      	
+
+3.what is diffreence between listiterator and iterator.
+
+                Iterator          		                            ListIterator
+				
+	1. Iterator is an interface in Java                  1.ListIterator is an interface that extends the Iterator
+	and we can traverse the elements of a list              interface and we can traverse the elements
+	  in a forward direction.			                       in both forward and backward directions.
+	  
+	  
+	2. Iterator can be used in these collection         2.ListIterator can be used in List collection only. 
+	    types like List, Set, and Queue. 
+
+    3. methods of Iterator interface are hasNext()     3. ListIterator interface are add()
+	      next() and remove() 	                          hasNext() hasPrevious() and remove().
+		  
+		  
+
+4. what are some Alternative to inheritance	
+   Delegation is an alternative to inheritance Delegation means that you include an instance 
+     of another class as an instance variable.
+	 
+	 
+5.what is the coveriant method overloading.
+
+Covariant Method overloading means that when overloading a method in the child class
+ the return type of an overloadinhg method without any need to cast the type or check the return type
+ Covariant return type works only for non-primitive return types. 
+ 
+ 6. what is memory leakege in java?
+ 
+ The memory leak is a situation when the garbage collector does not recognize the unused objects 
+ and they remain in the memory indefinitely that reduces the amount of memory allocated to the application.
+ 
+ 7. explaning static binding and instance binding in polymerphisum
+ 
+ polymerphisum :- an object is behaves in given instance of time is called polymerphisum.
+ two type of polymerphisum 
+ 1. complie time polymerphisum:- method overloading
+ 2. run time polymerphisum :- method overriding
+ 
+ method overriding:- method overloading means multiple methods in the class method name will be same
+                      difference in the parameter list is called method overloading.
+					
+
+method overriding:- in two class method signataure will be same difference in the implmention is called
+                       method overriding.
+					   
+
+8. input [45,333,76,29,900,23,474,654,29,454]
+    output:min-> 23
+       	   max-> 900
+	
+	class Array
+	{
+	public static void main(String a[])
+	{
+	int a[]={45,333,76,29,23,474,654,29,454};
+	int max=a[0];
+	int temp=0;
+	for(int i=0; i<a.length; i++)
+	{
+	 for(int j=i+1; j<a.length;j++)
+	 {
+	 if(a[i]>a[j] && a.max[i])
+	 {
+	   max=a[i];
+	 temp=a[i];
+	 a[i]=a[j];
+	 a[j]=temp;
+	 }
+	 }
+	 }
+	 System.out.println(max);
+	 System.out.println(a[a.lenth-1]);
+	 }
+	 }
+	 
+
+	
+					
+					  
+					  
+ 
+   	  
+       	
+
